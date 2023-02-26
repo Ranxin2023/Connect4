@@ -12,6 +12,6 @@ private:
 public:
 	Game(int, int, Players*, Players*);
 	void run();
-	bool gameover();
+	bool gameover(char);
 };
 #endif // !GAME_H

@@ -13,7 +13,7 @@ void Game::run()
 	}
 }
 
-bool Game::gameover()
+bool Game::gameover(char c)
 {
-	return false;
+	return this->board->win(c);
 }

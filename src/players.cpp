@@ -19,5 +19,15 @@ int HumanPlayers::find_column()
 	return c-48;
 }
 
+char HumanPlayers::getPiece()
+{
+	return Players::get_piece();
+}
+
+char Players::get_piece()
+{
+	return this->piece;
+}
+
 
 
